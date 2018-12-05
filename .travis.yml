@@ -7,7 +7,7 @@ script:
   - pytest
 
 env:
-  - "TEST_DIR=modules/Generator"
+  - TEST_DIR=modules/Generator
 
 branches:
   only:

@@ -4,8 +4,11 @@ python:
   - "3.5"
   - "3.6"
 
+install:
+  - pip install -r requirements.txt
+
 script:
-  - pip install -r requirements.txt && pytest -m pytest
+  - pytest -m pytest
 
 branches:
   only:

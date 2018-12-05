@@ -1,0 +1,4 @@
+auxlib==0.0.42
+conda==4.2.7
+enum34==1.1.6
+pytest==4.0.1
